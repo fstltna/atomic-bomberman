@@ -1,0 +1,36 @@
+What is Playsh ?
+----------------
+
+Playsh is a small "Play Shell" to play audio files.
+
+It recognizes .RAW and .22k files as being 8-bit mono files,
+and it recognizes .RSS files as being 16-bit stereo files.
+
+It plays the latter by mixing both left and right channels
+and then dividing the samples by 256 to get it to a rough
+estimate of 8-bit audio.  It is very crude and only intended
+to assist in previewing sound samples.
+
+Playsh will only work on IRQs 7 and under and only if the
+BLASTER= variable has been set properly on your system.
+
+Playsh is an 8-bit MS-DOS utility and is usually quite
+happy to run with Win95, but is not actually aware of
+Win95 or any of Win95's services.
+
+
+When playing any file the first time it may 'glurch'.  You
+should play the file again to get a better listen. :)
+
+PlaySh should not be run alone and should always be ran 
+through PSS.
+
+
+MUST READ
+---------
+Please see TOOLHELP.TXT for important information regarding
+this utility as well as all the other tools / utililties
+located on this CD.
+
+
+

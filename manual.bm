@@ -1,0 +1,391 @@
+**************************************************************
+ATOMIC BOMBERMAN ON-LINE MANUAL
+**************************************************************
+Updated: July 7th, 1997
+For Additional Information see "README.BM"
+
+For those of you not familiar with the Bomberman 
+experience, I will spare you the details.  The 
+dynamics of the game are as easy as 1-2-3.
+1. Drop a bomb.
+2. Run away.
+3. Watch your back, your front, your left, etc. 
+   Just watch out.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Getting Started
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is a 1-10 player no-holds barred action game!  Play 
+either against human or computer opponents in this 
+hilarious, ultra destructive game of "tag."  Select the 
+number of wins for a match as well as which arena to 
+compete in.  If the number of game wins is not "in your 
+face" enough, set the match determination to kills and 
+find out once and for all "Who's The Man!"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To move your bomberman around just press in the direction 
+you would like your bomberman to move.  Basically, there 
+are two buttons that control all the functions of your 
+bomberman--Drop Bomb and Action Button.
+
+DROP BOMB: (joystick button 1, spacebar, 'S') To drop a 
+  bomb, press this button.  Otherwise, this button is
+  used to drop a Spooge (see below) and Grab/Throw a 
+  bomb.  Press the button again after dropping a bomb to
+  do either if you have the appropriate powerup.  
+  If you have the Blue Hand powerup, you may carry a 
+  bomb by grabbing and holding down the Drop Bomb button.
+
+ACTION: (joystick button 2, enter, 'a')  Use this button
+  to perform certain actions in the game.  For instance,
+  if your bomberman has the Kick powerup, press the 
+  action button to stop a kicked bomb.  Also, if you have 
+  the Boxing Glove, you can punch bombs in front of you
+  by pressing the action button.  Finally, you can 
+  activate a Trigger bomb.  Just make sure you are in the
+  clear.
+
+=Other In-Game Controls
+=======================
+Useful Stuff:
+Ctrl-A - Set all players to AI in the controller setup
+  screen (won't work in network play!)
+F1 - Help (review help / information files)
+F10 - Forces a draw game.
+Ctrl-Q - Quit game in progress; go back to main menu 
+  (terminates game completely)
+
+Neeto Stuff:
+Alt-N - dump out the networking statistics (NETSTATS.TXT)
+Alt-D - display the misc info screen 
+  (use it VERY sparingly when network play is going on... 
+  it will affect synchronization!)
+Alt-W - disable waiting between games (intergame_nowait 
+  will reset between each MATCH)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start Game
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use this selection to begin the multiplayer mayhem on
+a single computer.  Before any fuse can be lit, all 
+players must setup their control method and select the 
+conditions for victory.
+
+=Control Selection Screen
+=========================
+The control selection screen is used to setup the controls 
+for the bombermen in the game.  Move the cursor (the head) 
+[up] and [down] to select players 1 through 10.  To add a 
+player, press [right] to toggle through the different 
+control methods.  Any joysticks detected will be displayed 
+to the right of the screen.  To remove a bomberman, press 
+[left]; this turns the highlighted player 'off.'  To 
+assign a Bomberman AI to a player, press [right] until the 
+player is selected on 'AI.'  In order to start a Bomberman 
+match, at least two players must be selected and players 
+cannot have the same control method on the same computer.  
+Click a button to select a level.
+
+Controlling The Screen:
+[up]/[down]    select player
+[right]        toggle through control methods
+[left] 	       turn player 'off'
+<button>       continue to the next screen
+
+=Map Selection Screen
+=====================
+Once all players have selected their controls, you must 
+decide upon a playing arena.  Click [left] and [right]
+to cycle through the different maps and win requirements.
+When you are ready to have a Blast, press the <drop bomb> 
+button to begin the battle!  Bombs away!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start Network Game
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This option allows bombermen of all ages to host a game on
+an IPX, modem, or serial network.  Upon selecting this 
+option, the network setup screen will appear.  As other 
+bombermen join your network game, they will be listed on 
+this screen.  When all players are connected, press the 
+<drop bomb> button to advance to the control selection 
+and level selection screens.
+
+=AIs and Team Play
+==================
+In a network game, only the computer who started the 
+network game (the host) will be able to assign AIs or 
+set team colors.  When selecting controls, players under 
+remote control will be displayed as 'NET' players.
+
+=Network Game Notes
+===================
+In network play, the server (host) will upload the
+settings information to each of the clients and
+the clients will use those settings instead of
+their own local settings.
+
+Custom Sounds, Graphics, etc., are not transmitted.  
+Scheme files are transmitted, however, they will only
+reside in memory and not make any files on the client 
+machine.
+
+=Random Sounds and Tunes
+========================
+If you are using the smallest install you will not get 
+random music and or custom stage music.  This is the case
+only in net play.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Network Game
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use this selection to join a battle over a network.  Up to 
+five computers may join a battle.  Move the cursor [up] 
+and [down] to select the node (game) in which you would 
+like to join.  Press the <drop bomb> button when you are 
+satisfied with your selection.  The screen will change to 
+wait for other players to join.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Options
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Team Play:  (Yes/No) A 'Yes' in this option allows 
+  players to play on one of two teams.  The default is 
+  'No' which will play a regular game.  Generally,
+  players 1 through 5 are on one team and players 6
+  through 10 are on another.  To change teams from the
+  Controller Setup Screen, select a player and press the
+  'T' key.
+
+Random Start:  (Yes/No)  If Random Start is set to 'Yes'
+  then player start positions will be randomized at the 
+  beginning of the match.  Schemes designed for team 
+  play (i.e. Schemes with two numbers after the name)
+  should be played with this option set to 'No' (ofF).
+
+Node Name:  Click on this selection to change your 
+  computer's name for a network game.  Others in the 
+  network will identify you by this name.
+
+Conveyor Speed:  (Low/Medium/High)  This option sets the 
+  speed of the conveyor belt.  The conveyor belt will 
+  carry bombs and players along its path. 
+
+Stomped Bombs Detonate:  (Yes/No) When the walls start
+  closing in, bombs 'stomped' by the wall will detonate
+  if this option is turned on (Yes).
+
+Win Matches By Kill Total:  (Yes/No)  If this option is 
+  set to 'Yes,' the winner will be determined by the kill
+  count.  Otherwise, a player wins a match by winning
+  the required number of games (score).
+
+Gold Bomberman:  (Yes/No)  The Gold Bomberman is a reward
+  given to the winner of the last match.  The reward 
+  consists of a random powerup determined by the roulette 
+  wheel. (Not available in network games)
+
+Enclosement Depth:  (None, A Little, A Lot, All the Way!)
+  This option determines the enclosement depth of the 
+  walls that close in after the 'Hurry!' message.
+
+Scheme File:  The scheme file sets the block configuration 
+  for the gamefield.  You may choose different setups for 
+  full customization.
+
+  ---- For a little more fun
+  ---> Wally Bomb/Team Wally Bomb 
+  A favorite Interplay past time. Assemble your team and 
+  let the *^$% fly. Each team starts off with the glove 
+  and the hand.  The teams are separated by an 
+  indestructible barrier running the length of the arena.  
+  Throw and punch your bombs over the wall to destroy 
+  your opponents.  You will need to set the scheme to
+  Wallybomb.sch from the options menu, turn 'Random Start'
+  off, and turn 'Team Play' on.  To ensure that the teams
+  are placed properly, player slots 1 through 5 are on 
+  one team and player slots 6 through 10 are on the other.
+
+Play Time:  (1:00, 1:30, 2:00, 2:30, 3:00, 4:00, 5:00, 
+  10:00, Infinite)  Selects the amount of time for game.
+  Remember... the enclosement blocks start closing in 
+  after the 'Hurry!' message.
+
+Assign Keyboard Player:  (Yes/No)  Toggle this option to 
+  automatically assign a keyboard player in the control
+  setup screen.   If all players are using joysticks and 
+  gamepads, it might be helpful to set this option to 
+  'No.'
+
+Diseases Can Be Destroyed:  (Yes/No)  If this option is 
+  set to 'No,' diseases destroyed by bombs will regenerate 
+  elsewhere on the map. (Not available in network play)
+
+Lost Net Players Revert To AI's: (Yes/No) If this option
+  is set to 'YES', lost net players will turn into AI 
+  players.  If this is set to 'NO' they will be dropped 
+  out of the game without notice.
+
+Disable Music During Gameplay:  (Yes/No) If this option
+  is set to 'YES', no music will play during gameplay.  
+  Disabling music during gameplay will increase the 
+  performance of the game, especially in network play.
+
+Modem:  Allows you to adjust the settings for your modem
+  for use with a Network Modem game of Bomberman.    Use 
+  this selection to set the Com Port, IRQ, Baud Rate and 
+  Default Phone Number to complete your connection.
+  Just check your Windows 95 Control Panel for these
+  Settings.
+
+Define Keyboard Layouts:  Use this selection to customize
+  the keyboard controls.  From the keyboard definitions
+  screen, use the mouse to click the key you would like 
+  to modify.  If you would like to restore the default 
+  controls, click on the 'Return to default keys' button.
+  When you are satisfied with your selection, press ESC 
+  to return to the Options screen.
+
+Set Default Network Protocol:  Select this option to 
+  choose your default Network Protocol type.  A window
+  will pop up prompting you to select a network protocol.  
+  If you would like the program to ask you every time 
+  you start a Network Game, select the 'Prompt each time' 
+  option.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About Bomberman
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+For a list of people who have lost sleep in making this
+game.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Online Manual
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This will give you access to all of the available help
+files and information files on Bomberman.  You should
+take a quick peek through the files for any information
+not covered in the printed manual.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exit Game
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This will end your current session of Atomic Bomberman.  
+Now why would you want to do a thing like that?  :)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Standard Bomberman Equipment (Powerups)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Every demolition squad knows that it takes Special Items
+to effectively and efficiently obliterate your opponent. 
+Here are the tools you will need to become "The Man."
+
+The Menu
+~~~~~~~~
+
+<IMGpowbomb> Extra Bomb.  Allows you to drop an additional 
+		bomb.
+
+<IMGpowflame> Extended Flame.  Allows your flame to shoot 
+		further.
+
+<IMGpowgold> Golden Boy.  Max Flamelenth.  Gives your 
+		explosions MAXIMUM range.
+
+<IMGpowdisea> Disease. Gives you one random "disease."
+
+
+<IMGpowbad> Super Bad Disease.  Gives you up to three (3) 
+		diseases simultaneously.
+
+<IMGpowkick> Kick.  Allows you to kick any bomb down a hallway.
+		Kicked bombs can be stopped using <action>.
+
+<IMGpowgrab> Blue Hand.  Allows you to pick up (grab), carry,  
+		and throw your bombs.
+
+<IMGpowpunch> Boxing Glove.  Allows you to punch any bomb.
+
+
+<IMGpowjelly> Jelly.  Turns your bombs into Jelly (bouncy).
+		
+
+<IMGpowtrig> Trigger.  Allows you to precisely control when 
+		your bomb detonates.
+
+<IMGpowskate> Skate. Speed Boost.  Allows you to run faster.
+
+
+<IMGpowspoog> Spooge.  Lays down ALL of your bombs at once.
+
+
+<IMGpowslow> Brake.  Slows down your Bomberman. 
+		(option only available through Gold Bomberman)
+
+
+=Mutually Exclusive Powerups
+============================
+All bombermen cannot have everything in life, so some
+powerups will not work with others.  If a player picks
+up a powerup that conflicts with another already in 
+possession, the old powerup will be spit out for another 
+bomberman to grab.  For instance, if a bomberman already
+has the Jelly and tries to pick up the Trigger, the 
+Jelly will be dropped.
+
+Picking up...
+  Trigger will drop Jelly and Boxing Glove.
+  Jelly will drop Trigger.
+  Boxing Glove will drop Trigger.
+  Blue Hand will drop Spooge.
+  Spooge will drop Blue Hand.
+
+=Blown Away!
+============
+All good things must come to an end.  This also applies 
+to Bombermen.  If a Bomberman dies, powerups possessed 
+will be randomly dropped across the map for other 
+bombermen to loot.  Remember, if powerups get blown
+away, they are gone forever!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+STRATEGIES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Every gamer knows that the real difference between 
+winning and losing depends on shrewd, overall strategies. 
+
+= While in possession of "The Glove" drop a bomb near a 
+wall and wait for a brief moment, punching the bomb into 
+the air when you think it is ready to explode.  As soon 
+as the bomb touches ground KABOOM.  This eliminates any 
+reaction that an opponent can make to your assault.
+
+= Using the same technique as above with "The Boot", you 
+can kick your volatile bombs down the hall towards 
+unsuspecting delvers who think they have a little time to 
+spare. 
+
+= When you get the Trigger Bombs powerup, use them 
+sparingly, saving them for their surprise element.  Go 
+near an opponent and wait for him to drop his bombs, then 
+drop your trigger bomb next to his regular bomb, take 
+cover as quickly as possible and detonate it.  Usually 
+you will catch the opponent off-guard with the fast-blast.
+ 
+= Good disease strategies often involve passing the 
+disease to as many opponents as possible. Good diseases 
+to do this with are:  Short Fuze, Reverse Controls, Poops, 
+and Short Flame.
+
+

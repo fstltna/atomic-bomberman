@@ -1,0 +1,18 @@
+You can adjust various properties and other things about the game not documented here.
+The main brunt of this work can be done in the following files.
+
+.\data\res\valuelst.res
+.\data\res\soundlst.res
+.messages.txt
+
+There are various notes within these files that breifly explains the value and it's 
+effect on the game. 
+
+
+
+MUST READ
+---------
+Please see TOOLHELP.TXT for important information regarding
+this utility as well as all the other tools / utililties
+located on this CD.
+

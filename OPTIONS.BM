@@ -1,0 +1,111 @@
+**************************************************************
+Options Screen Help
+**************************************************************
+
+Team Play:  (Yes/No) A 'Yes' in this option allows 
+  players to play on one of two teams.  The default is 
+  'No' which will play a regular game.  Generally,
+  players 1 through 5 are on one team and players 6
+  through 10 are on another.  To change teams from the
+  Controller Setup Screen, select a player and press the
+  'T' key.
+
+Random Start:  (Yes/No)  If Random Start is set to 'Yes'
+  then player start positions will be randomized at the 
+  beginning of the match.  Schemes designed for team 
+  play (i.e. Schemes with two numbers after the name)
+  should be played with this option set to 'No' (off).
+
+Node Name:  Click on this selection to change your 
+  computer's name for a network game.  Others in the 
+  network will identify you by this name.
+
+Conveyor Speed:  (Low/Medium/High)  This option sets the 
+  speed of the conveyor belt.  The conveyor belt will 
+  carry bombs and players along its path. 
+
+Stomped Bombs Detonate:  (Yes/No) When the walls start
+  closing in, bombs 'stomped' by the wall will detonate
+  if this option is turned on (Yes).
+
+Win Matches By Kill Total:  (Yes/No)  If this option is 
+  set to 'Yes,' the winner will be determined by the kill
+  count.  Otherwise, a player wins a match by winning
+  the required number of games (score). If you kill 
+  yourself with your own bomb, your kill count will
+  go down by 1.
+
+Gold Bomberman:  (Yes/No)  The Gold Bomberman is a reward
+  given to the winner of the last match.  The reward 
+  consists of a random powerup determined by the roulette 
+  wheel. (Not available in network games)
+
+Enclosement Depth:  (None, A Little, A Lot, All the Way!)
+  This option determines the enclosement depth of the 
+  walls that close in after the 'Hurry!' message.
+
+Scheme File:  The scheme file sets the block configuration 
+  for the gamefield.  You may choose different setups for 
+  full customization.
+
+  ---- For a little more fun
+  ---> Wally Bomb/Team Wally Bomb 
+  A favorite Interplay past time. Assemble your team and 
+  let the *^$% fly. Each team starts off with the glove 
+  and the hand.  The teams are separated by an 
+  indestructible barrier running the length of the arena.  
+  Throw and punch your bombs over the wall to destroy 
+  your opponents.  You will need to set the scheme to
+  Wallybomb.sch from the options menu, turn 'Random Start'
+  off, and turn 'Team Play' on.  To ensure that the teams
+  are placed properly, player slots 1 through 5 are on 
+  one team and player slots 6 through 10 are on the other.
+
+Play Time:  (1:00, 1:30, 2:00, 2:30, 3:00, 4:00, 5:00, 
+  10:00, Infinite)  Selects the amount of time for game.
+  Remember... the enclosement blocks start closing in 
+  after the 'Hurry!' message.
+
+Assign Keyboard Player:  (Yes/No)  Toggle this option to 
+  automatically assign a keyboard player in the control
+  setup screen.   If all players are using joysticks and 
+  gamepads, it might be helpful to set this option to 
+  'No.'
+
+Diseases Can Be Destroyed:  (Yes/No)  If this option is 
+  set to 'No,' diseases destroyed by bombs will regenerate 
+  elsewhere on the map. (Not available in network play)
+
+Lost Net Players Revert To AI's: (Yes/No) If this option
+  is set to 'YES', lost net players will turn into AI 
+  players.  If this is set to 'NO' they will be dropped 
+  out of the game without notice.
+
+Disable Music During Gameplay:  (Yes/No) If this option
+  is set to 'YES', no music will play during gameplay.  
+  Disabling music during gameplay will increase the 
+  performance of the game, especially in network play.
+
+Modem:  Allows you to adjust the settings for your modem
+  for use with a Network Modem game of Bomberman.    Use 
+  this selection to set the Com Port, IRQ, Baud Rate and 
+  Default Phone Number to complete your connection.
+  Just check your Windows 95 Control Panel for these
+  Settings.
+
+Define Keyboard Layouts:  Use this selection to customize
+  the keyboard controls.  From the keyboard definitions
+  screen, use the mouse to click the key you would like 
+  to modify.  If you would like to restore the default 
+  controls, click on the 'Return to default keys' button.
+  When you are satisfied with your selection, press ESC 
+  to return to the Options screen.
+
+Set Default Network Protocol:  Select this option to 
+  choose your default Network Protocol type.  A window
+  will pop up prompting you to select a network protocol.  
+  If you would like the program to ask you every time 
+  you start a Network Game, select the 'Prompt each time' 
+  option.
+
+

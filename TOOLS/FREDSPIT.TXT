@@ -1,0 +1,14 @@
+What Is Fredspit ?
+------------------
+Fredspit is a utility that works on .ANI 
+files made by Fredit.  This dumps out all
+the sequence names within the .ANI file
+into a specified text file name.
+
+
+
+Usage
+-----
+Fredspit <myanim.ani> <myanim.txt>
+
+

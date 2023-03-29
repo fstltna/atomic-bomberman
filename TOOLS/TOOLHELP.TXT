@@ -1,0 +1,139 @@
+!!ALWAYS MAKE BACKUPS OF YOUR FILES BEFORE ATTEMPTING TO MODIFY THEM!!
+
+UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED 
+UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED
+
+!!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! 
+!!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-------------------------------------------------------
+1) These tools are unsupported by Interplay.  Use them 
+   at your own risk.
+
+2) You will need to locate your own way to grep out 
+   files you select from the PSS.ini file.  GREP is not 
+   a utility of Interplay Productions.
+
+3) It is STRONGLY suggested that you back up any and ALL 
+   files before attempting to modify them.  If for some
+   reason you loose critical files you can always do a
+   minimum install overwriting your files.
+
+4) The documentation provided for all of these tools is 
+   by now means complete.  You will need to experiment
+   with them to discover their potential.  The 
+   documents provided are intended to aid you in 
+   modifying Bomberman, not to provide a step by step
+   tutorial.
+
+
+Remember, these tools are unsupported and are to be 
+used at your own risk.  It is impossible at this time
+to cover all of the tools in complete detail.  We feel
+that we have provided you with the basic set of information
+needed for you to modify the game.  Experiment with the
+tools nd examine the provided files for more insight into
+adjusting the game to suit your needs.
+
+
+UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED 
+UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED UNSUPPORTED 
+
+Please do not call Interplay Customer Service, they will not be able to 
+help you.
+
+!!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! 
+!!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! !!USE AT YOUR OWN RISK!! 
+
+Please be sure to backup your files.
+
+
+===================
+=LEGAL INFORMATION=
+===================
+
+
+
+Level Designer License.
+
+You are granted a revocable, nonassignable limited 
+license to create new levels to Atomic Bomberman using 
+the Software  (the "Levels") solely for your own 
+personal noncommercial home entertainment use.  You 
+may provide public access to the Levels you create [by 
+posting them on a Web page with all notices and 
+restrictions intact, provided that you shall not be 
+permitted to use the Levels or allow any other party 
+(except Interplay Productions and its authorized 
+licensees) to use any Levels for any commercial 
+purpose.  The Levels may not be copied (except as 
+provided below), resold, rented, leased, distributed 
+(electronically or otherwise), used on  pay-per-play, 
+coin-op or other for-charge basis, or for any 
+commercial purpose. You may make copies of the Levels 
+for your personal noncommercial home entertainment use 
+and to give to friends and acquaintances on a no cost 
+noncommercial basis.  This limited right to copy or 
+provide public access to the Levels expressly excludes 
+any copying, access or distribution of the Levels on a 
+commercial basis, including, without limitation, 
+bundling the Levels with any other product or service, 
+providing access to or facilitating the access to the 
+Levels on a commercial network or online service and 
+any give away of the Levels in connection with another 
+product or service. Any permissions granted herein are 
+provided on a temporary basis and can be withdrawn by 
+Interplay Productions at any time.  All rights not 
+expressly granted are reserved. 
+
+All Levels shall be derivative works and shall be owned 
+exclusively by Interplay Productions and subject to the 
+exclusive license of Interplay Productions. As a 
+material term and condition to your being granted this 
+limited right to use the Software to create Levels to 
+Atomic Bomberman  (i) you hereby relinquish, release 
+and assign all rights in and title to any Levels to 
+Interplay Productions and Hudson Soft Co., LTD, 
+(ii) you further agree to assist Interplay Productions 
+and Hudson Soft Co., LTD in formalizing their rights to 
+any Levels, including executing documentation 
+evidencing your relinquishment of such rights, 
+(iii) you grant to Interplay Productions and Hudson 
+Soft Co., LTD a limited power of attorney to sign on 
+your behalf any documents required to effectuate your 
+release and assignment of rights to any Level and 
+(iv) you agree that Interplay Productions may, in its 
+sole discretion, use any or all of the Levels, or any 
+portion thereof, for any purpose, including, without 
+limitation, use in subsequent versions of Atomic 
+Bomberman, in compilations of Atomic Bomberman levels, 
+and in advertising and promotions without any further 
+compensation to you.
+
+
+Acceptance of License Terms.  
+
+By acquiring and retaining this Software, you assent 
+to the terms and restrictions of this limited license.  
+If you do not accept the terms of this limited 
+license, you must return the Software together with 
+all packaging, manuals and other material contained 
+therein to the store where you acquired the Software 
+for a full refund.		
+
+
+(c)1997 Interplay Productions and TM Hudson Soft Co., 
+Ltd. All rights reserved. 
+Interplay is a trademark of Interplay Productions.
+All rights reserved.
+Exclusively licensed and distributed by Interplay 
+Productions.
+Windows and the Windows 95 logo are registered 
+trademarks of Microsoft Corporation.  
+All rights reserved. 
+All other trademarks and copyrights are the property 
+of their respective owners.
+
+

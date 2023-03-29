@@ -1,0 +1,71 @@
+Information on adding your own animations to Atomic Bomberman.
+
+Once you have built your custom animations withing FREDIT, it's 
+time to put them into the game.
+
+Where to start
+--------------
+In .\data\res you will find the following files:
+Valuelst.res
+
+
+In .\data\ani you will find the following files
+Xplode(n).ani
+walk.ani, etc.
+master.ali
+
+
+Add/Replace your new animation in the master.ali file.
+
+
+Once you have done that load up the VALUELST.RES and search for the
+following values.
+
+
+Number of Death Animations:
+105,(n)
+
+Currently this is set to 24.  If you add a new death, it would now
+be 25.  You should follow the naming convention within the xplode(n).ani
+files to keep things simple.
+
+Number of Cornerhead Animations:
+If your animation is that of a character getting trapped, ready to die 
+you will need to add that here.
+330,(n)
+
+Currently this is set to 13.  If you add a new cornerhead, it would now be 14.  
+You should follow the naming convention within the corner(n).ani
+files to keep things simple.
+
+If you wish to change any of the other files, you should make backups, and
+overwrite them with your new data.  It is not possible to specify different
+walks,runs,throws,kicks, etc.
+
+
+
+More Information
+----------------
+Each animation that is defined in the MASTER.ALI file adds more to the
+memory footprint of the game.  While is is not out of the question
+to add in 50 deaths, it may not be worth your while to have them
+all in the game.  Adjust your MASTER.ALI file and Valuelst.res file
+to suit your needs.
+
+
+MUST READ
+---------
+Please see TOOLHELP.TXT for important information regarding
+this utility as well as all the other tools / utililties
+located on this CD.
+
+
+
+
+
+
+
+
+
+
+

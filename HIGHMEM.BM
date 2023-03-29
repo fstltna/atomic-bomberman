@@ -1,0 +1,17 @@
+Running Atomic Bomberman in high-memory configurations
+
+Note: You should close all open programs in the 
+      background before running Bomberman.
+
+If you experience performance problems running in 
+this mode you can try the following:
+
+1) Go into the options menu and turn off music
+   during gameplay.  Music in Bomberman is staged
+   to the Hard Drive and then streamed off.  If
+   you suffer VM (Virtual Memory) hits you should
+   turn music off.
+
+2) Switch to Normal memory model in the options 
+   menu.
+

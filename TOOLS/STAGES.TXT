@@ -1,0 +1,177 @@
+Information on how to add your own level('s) to Atomic Bomberman.
+
+
+Note: You will need to become familiar with Fredit before adding
+      your own stage into Bomberman.
+
+Where to start
+--------------
+In .\data\res you will find the following files:
+FIELD(n).pcx
+Valuelst.res
+
+In .\data\ani you will find the following files
+XBRICK(n).ani
+TILES(n).ani
+
+
+
+The Palette
+-----------
+In your .\tools folder you will find a file called 
+BOMBPAL.PCX.  You should use this palette whenever making 
+your own custom graphics.  Bomberman will attempt to remap the 
+screens as necessary, however, the end result may not always
+be desirable.  Save yourself the trouble and use the palette
+provided.
+
+
+****** CREATING YOUR ASSETS *******
+The Field
+---------
+The backgrounds are labeled FieldX.PCX where X is = to a number.
+The last one in the list is FIELD10.PCX.  Unless you want to 
+overwrite an existing stage you should probably start at 11 and 
+work your way up.  Currently there are 11 files, starting at 0
+and ending at 10.
+
+Each FIELDX.pcx is a 640x480 PCX file in 256 colors.  I strongly 
+suggest that you use one of the existing files as a template to 
+make sure you get the layout the right way.
+
+Once you have created your new field, name it appropriately 
+(Field11.pcx) in this case and copy it into your .\data\res
+directory.
+
+
+The Tiles
+---------
+Located in: .\data\ani
+The Tiles are labeled TILESX.ANI where X is = to a number.
+The last one in the list is TILES10.ANI.  Unless you want to 
+overwrite an existing TILE SET you should probably start at 11 and 
+work your way up.  Currently there are 11 files, starting at 0
+and ending at 10.
+
+Each TILESX.ANI is a fredit animation file. (see details on using 
+fredit).  
+
+Once you have created your new TILES file, name it appropriately 
+TILES11.ANI in this case and copy it into your .\data\ani
+directory.
+
+You should use one of the TILESX.ANI files as reference.  You will
+notice after loading one of these files that one is a destructible
+barrier, and one is non-destructible.
+
+These should be named appropriately within Fredit as well when 
+defined as a sequence.
+
+TILE X BRICK (Where X is = to the number)
+TILE X SOLID 
+
+
+The Bricks
+----------
+Located in: .\data\ani
+The Tiles are labeled XBRICKX.ANI where X is = to a number.
+The last one in the list is XBRICK10.ANI.  Unless you want to 
+overwrite an existing BRICK SET you should probably start at 11 and 
+work your way up.  Currently there are 11 files, starting at 0
+and ending at 10.
+
+Each XBRICKX.ANI is a fredit animation file. (see details on using 
+fredit).  
+
+Once you have created your new BRICKS file, name it appropriately 
+XBRICK11.ANI in this case and copy it into your .\data\ani
+directory.
+
+You should use one of the XBRICKX.ANI files as reference.  You will
+notice after loading one of these files that there is a sequence of
+a destructible brick blowing up.  This should be 9 or 10 frames, no
+more no less.
+
+These should be named appropriately within Fredit as well when 
+defined as a sequence.
+
+FLAME BRICK X  (Where X is = to the number)
+
+
+-------------------
+Now that you have all your data prepared your now ready to add your 
+new arena/stage into the game.
+
+******** ADDING YOUR STAGE TO THE GAME ********
+Modifying the VALUELST.RES file to get your stage into the game.
+
+WARNING: YOU MUST DO ALL OF THESE STEPS.  It is possible for bad things
+to happen if you do not.  Make sure you do not overrun any value into another.
+----------------------------------------------------------------
+Once you have your stage data in the right place you will need to load 
+up the file VALUELST.RES in your .data\res directory with 'notepad'.
+Search down until you find value 35 (How many levels are defined),
+and then add 1 to it.  By default this is 11, when adding a 
+stage just change/increment the number following the comma by 1.
+For Example:
+35,11  (before)
+35,12  (after)
+
+
+=====Regenerating Tiles
+Now you will need to look for the value 340 - 350
+and add in another reference number here. 
+351,(n) for example.
+This will determine if the level has regenerating tiles or not.
+
+
+
+=====Ice Delays
+Now you will need to look for the value 450 - 460
+and add in another reference number here.
+461,(n) for example.
+
+This will determine the Ice Delay if any for your level.
+
+
+
+=====Random Level ?
+Now you will need to look for the value 1150 - 1161
+and add in another reference number here.  
+1162,(n) for example.
+
+This will determine if this arena is chosen during random
+selection.
+
+
+In the root of your Bomberman folder you will find a file called
+MESSAGES.TXT.  You will need to find the value 150 - 160
+and add in another reference number here.
+161,My first level
+
+This will name your level for use within the game.
+
+
+The Master Animation List
+-------------------------
+Now that you have your FIELD, XBRICK, and TILES made for your stage,
+including your modified VALUELST.RES file, all you need to do is load
+up the following file.  MASTER.ALI located in .\data\ani.  Locate
+the section -xbrickX.ani and -tilesX.ani and add in your new levels
+appropriately.
+
+More Information
+----------------
+Each level that is defined in the MASTER.ALI file adds more to the
+memory footprint of the game.  While is is not out of the question
+to add in 50 levels, it may not be worth your while to have them
+all in there.  Adjust your MASTER.ALI file and Valuelst.res file
+to suit your needs.
+
+
+MUST READ
+---------
+Please see TOOLHELP.TXT for important information regarding
+this utility as well as all the other tools / utililties
+located on this CD.
+

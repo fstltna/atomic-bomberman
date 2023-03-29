@@ -1,0 +1,32 @@
+**************************************************************
+Input Selection Screen Help
+**************************************************************
+From this screen you can select which input
+devices each of the players on this system
+will use in the forthcoming game.
+
+Networked players will show up as "NET",
+while your local players can have various
+values, such as KEY for Keyboard, JOYx for
+Joystick, and AI for the computer players.
+
+When selecting the keyboard, the following key 
+layouts are set by default.
+
+			Movement       Action1      Action2
+
+KEY 0:      Cursor Keys    Space        Enter
+
+KEY 1:      R,D,F,G         S            A
+
+These are adjustable within the 'Options' menu.
+
+
+To toggle which team a player is on, press 'T'.  
+You need to have team play enabled (from the 
+options screen) for this feature to work.
+
+If you are a SERVER, you can override the player
+selection made by a CLIENT by pressing 'o' or
+'0' (zero) to override.
+

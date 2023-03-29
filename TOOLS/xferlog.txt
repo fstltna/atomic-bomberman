@@ -1,0 +1,202 @@
+CWD TOOLS
+250 Directory changed to /d:/Spil/Atomic Bomberman/TOOLS
+PWD
+257 "/d:/Spil/Atomic Bomberman/TOOLS" is current directory.
+TYPE A
+200 Type set to A.
+PASV
+227 Entering Passive Mode (10,0,1,11,17,84)
+connecting to 10.0.1.11:4436
+- -
+connecting to 10.0.1.11:4436
+Connected to 10.0.1.11 port 4436
+LIST
+150 Opening ASCII mode data connection for /bin/ls.
+Received 1003 bytes in 0.1 secs, (90.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving ANIMS.TXT as ANIMS.TXT (2 of 16)
+Saving restart info for  - ANIMS.TXT
+TYPE I
+200 Type set to I.
+PASV
+227 Entering Passive Mode (10,0,1,11,17,85)
+connecting to 10.0.1.11:4437
+- -
+connecting to 10.0.1.11:4437
+Connected to 10.0.1.11 port 4437
+RETR ANIMS.TXT
+150 Opening BINARY mode data connection for ANIMS.TXT (1770 bytes).
+Received 1770 bytes in 0.1 secs, (170.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving BOMBPAL.PCX as BOMBPAL.PCX (3 of 16)
+Saving restart info for  - BOMBPAL.PCX
+PASV
+227 Entering Passive Mode (10,0,1,11,17,86)
+connecting to 10.0.1.11:4438
+- -
+connecting to 10.0.1.11:4438
+Connected to 10.0.1.11 port 4438
+RETR BOMBPAL.PCX
+150 Opening BINARY mode data connection for BOMBPAL.PCX (301624 bytes).
+Received 301624 bytes in 0.1 secs, (25.55 Mbps), transfer succeeded
+226 Transfer complete.
+receiving EXTPSS.EXE as EXTPSS.EXE (4 of 16)
+Saving restart info for  - EXTPSS.EXE
+PASV
+227 Entering Passive Mode (10,0,1,11,17,87)
+connecting to 10.0.1.11:4439
+- -
+connecting to 10.0.1.11:4439
+Connected to 10.0.1.11 port 4439
+RETR EXTPSS.EXE
+150 Opening BINARY mode data connection for EXTPSS.EXE (25171 bytes).
+Received 25171 bytes in 0.1 secs, (2.40 Mbps), transfer succeeded
+226 Transfer complete.
+receiving FREDIT.DOC as FREDIT.DOC (5 of 16)
+Saving restart info for  - FREDIT.DOC
+PASV
+227 Entering Passive Mode (10,0,1,11,17,88)
+connecting to 10.0.1.11:4440
+- -
+connecting to 10.0.1.11:4440
+Connected to 10.0.1.11 port 4440
+RETR FREDIT.DOC
+150 Opening BINARY mode data connection for FREDIT.DOC (20480 bytes).
+Received 20480 bytes in 0.1 secs, (1.95 Mbps), transfer succeeded
+226 Transfer complete.
+receiving FREDIT.EXE as FREDIT.EXE (6 of 16)
+Saving restart info for  - FREDIT.EXE
+PASV
+227 Entering Passive Mode (10,0,1,11,17,89)
+connecting to 10.0.1.11:4441
+- -
+connecting to 10.0.1.11:4441
+Connected to 10.0.1.11 port 4441
+RETR FREDIT.EXE
+150 Opening BINARY mode data connection for FREDIT.EXE (619679 bytes).
+Received 619679 bytes in 0.3 secs, (19.14 Mbps), transfer succeeded
+226 Transfer complete.
+receiving FREDSPIT.EXE as FREDSPIT.EXE (7 of 16)
+Saving restart info for  - FREDSPIT.EXE
+PASV
+227 Entering Passive Mode (10,0,1,11,17,90)
+connecting to 10.0.1.11:4442
+- -
+connecting to 10.0.1.11:4442
+Connected to 10.0.1.11 port 4442
+RETR FREDSPIT.EXE
+150 Opening BINARY mode data connection for FREDSPIT.EXE (45568 bytes).
+Received 45568 bytes in 0.2 secs, (1.99 Mbps), transfer succeeded
+226 Transfer complete.
+receiving FREDSPIT.TXT as FREDSPIT.TXT (8 of 16)
+Saving restart info for  - FREDSPIT.TXT
+PASV
+227 Entering Passive Mode (10,0,1,11,17,91)
+connecting to 10.0.1.11:4443
+- -
+connecting to 10.0.1.11:4443
+Connected to 10.0.1.11 port 4443
+RETR FREDSPIT.TXT
+150 Opening BINARY mode data connection for FREDSPIT.TXT (261 bytes).
+Received 261 bytes in 0.1 secs, (20.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving GAME.TXT as GAME.TXT (9 of 16)
+Saving restart info for  - GAME.TXT
+PASV
+227 Entering Passive Mode (10,0,1,11,17,92)
+connecting to 10.0.1.11:4444
+- -
+connecting to 10.0.1.11:4444
+Connected to 10.0.1.11 port 4444
+RETR GAME.TXT
+150 Opening BINARY mode data connection for GAME.TXT (500 bytes).
+Received 500 bytes in 0.1 secs, (40.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving NUMBER.EXE as NUMBER.EXE (10 of 16)
+Saving restart info for  - NUMBER.EXE
+PASV
+227 Entering Passive Mode (10,0,1,11,17,93)
+connecting to 10.0.1.11:4445
+- -
+connecting to 10.0.1.11:4445
+Connected to 10.0.1.11 port 4445
+RETR NUMBER.EXE
+150 Opening BINARY mode data connection for NUMBER.EXE (25541 bytes).
+Received 25541 bytes in 0.1 secs, (2.44 Mbps), transfer succeeded
+226 Transfer complete.
+receiving PLAYSH.EXE as PLAYSH.EXE (11 of 16)
+Saving restart info for  - PLAYSH.EXE
+PASV
+227 Entering Passive Mode (10,0,1,11,17,94)
+connecting to 10.0.1.11:4446
+- -
+connecting to 10.0.1.11:4446
+Connected to 10.0.1.11 port 4446
+RETR PLAYSH.EXE
+150 Opening BINARY mode data connection for PLAYSH.EXE (74328 bytes).
+Received 74328 bytes in 0.1 secs, (7.11 Mbps), transfer succeeded
+226 Transfer complete.
+receiving PLAYSH.TXT as PLAYSH.TXT (12 of 16)
+Saving restart info for  - PLAYSH.TXT
+PASV
+227 Entering Passive Mode (10,0,1,11,17,95)
+connecting to 10.0.1.11:4447
+- -
+connecting to 10.0.1.11:4447
+Connected to 10.0.1.11 port 4447
+RETR PLAYSH.TXT
+150 Opening BINARY mode data connection for PLAYSH.TXT (1069 bytes).
+Received 1069 bytes in 0.1 secs, (100.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving PSS.EXE as PSS.EXE (13 of 16)
+Saving restart info for  - PSS.EXE
+PASV
+227 Entering Passive Mode (10,0,1,11,17,96)
+connecting to 10.0.1.11:4448
+- -
+connecting to 10.0.1.11:4448
+Connected to 10.0.1.11 port 4448
+RETR PSS.EXE
+150 Opening BINARY mode data connection for PSS.EXE (102494 bytes).
+Received 102494 bytes in 0.1 secs, (9.80 Mbps), transfer succeeded
+226 Transfer complete.
+receiving PSS.TXT as PSS.TXT (14 of 16)
+Saving restart info for  - PSS.TXT
+PASV
+227 Entering Passive Mode (10,0,1,11,17,97)
+connecting to 10.0.1.11:4449
+- -
+connecting to 10.0.1.11:4449
+Connected to 10.0.1.11 port 4449
+RETR PSS.TXT
+150 Opening BINARY mode data connection for PSS.TXT (1455 bytes).
+Received 1455 bytes in 0.1 secs, (140.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving STAGES.TXT as STAGES.TXT (15 of 16)
+Saving restart info for  - STAGES.TXT
+PASV
+227 Entering Passive Mode (10,0,1,11,17,98)
+connecting to 10.0.1.11:4450
+- -
+connecting to 10.0.1.11:4450
+Connected to 10.0.1.11 port 4450
+RETR STAGES.TXT
+150 Opening BINARY mode data connection for STAGES.TXT (5735 bytes).
+Received 5735 bytes in 0.1 secs, (560.00 Kbps), transfer succeeded
+226 Transfer complete.
+receiving TOOLHELP.TXT as TOOLHELP.TXT (16 of 16)
+Saving restart info for  - TOOLHELP.TXT
+PASV
+227 Entering Passive Mode (10,0,1,11,17,99)
+connecting to 10.0.1.11:4451
+- -
+connecting to 10.0.1.11:4451
+Connected to 10.0.1.11 port 4451
+RETR TOOLHELP.TXT
+150 Opening BINARY mode data connection for TOOLHELP.TXT (5854 bytes).
+Received 5854 bytes in 0.1 secs, (570.00 Kbps), transfer succeeded
+226 Transfer complete.
+CWD /d:/Spil/Atomic Bomberman
+250 Directory changed to /d:/Spil/Atomic Bomberman
+PWD
+257 "/d:/Spil/Atomic Bomberman" is current directory.

@@ -1,0 +1,156 @@
+**************************************************************
+Atomic Bomberman Secret Level Editor Help
+**************************************************************
+Atomic Bomberman has a built-in level editor that may
+be used to create your own SCHEME files or to edit
+existing Scheme files.  Scheme files control the
+layout of the bricks, the starting positions of the
+players and also what powerups they begin with and
+also what powerups they might find during gameplay.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Starting the Editor:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To activate the Atomic Bomberman Level Editor you need
+to press Ctrl-E six (6) times from the main menu.
+
+This will drop you into the Editor Main Menu.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Editor Main Menu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From the Editor Main Menu you may do the following:
+
+  1) Edit scheme files
+  2) Create a new scheme file
+  Q) Exit. (This exits back to the Bomberman 
+      Main Menu.)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scheme File Editing:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To edit the scheme file you may press [TAB] to select
+different bricks and then place them by clicking the
+left button on the mouse.  You can also select
+different bricks with the 1, 2 and 3 keys.
+
+To place new player start locations, click with the
+right button on the mouse.
+
+To select a different player, press '+' or '-' (plus
+and minus) until that player is selected.
+
+To toggle graphical/line drawing representations,
+press '0' (zero).
+
+To change the textual name of the level, press 'N'.
+
+To change the brick Density, press 'D'.
+
+To restore the basic "Grid" pattern, press Ctrl-B.
+
+To fill the entire screen with the selected brick type, 
+press Ctrl-F.
+
+To edit the powerup settings for that scheme, press P.
+
+To toggle the team color between red to white, press T.
+
+To exit, press <ESC> and you will be prompted to save
+your work or to rename it.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Powertype Table Modifier Editor:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To edit the powerups for a given scheme, press 'P' 
+to enter the Powertype Table Modifier Editor.  From 
+this screen it is possible to modify the default 
+settings for a given scheme.
+
+Bornwith:  Determines the number of powerups all 
+  players begin with.  For example, if the Bomb 
+  Bornwith is set to 5, all players begin the
+  level with five bombs in their possession.
+  The Bornwith value for Disease, Bad Disease, 
+  and Random Powerups are ignored.
+
+Forbid:  Determines the powerups forbidden from 
+  the random powerup.  If this setting is set on
+  'Yes,' the selected powerup will not appear in
+  a random powerup.
+
+Override:  Determines the override value for the 
+  default number of powerups to appear on the map.  
+  First, select 'Yes' to override the value.  Then, 
+  enter the new value.  A zero value will not allow
+  the powerup to appear during a game.  A negative
+  number represents the number of times that the 
+  game will attempt a 1 in 10 chance for the 
+  powerup to appear.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Variable Player Schemes:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+While it is possible to make schemes for less than 10
+players, some special adjustments are needed to play  
+them.  If a scheme is designed for less than (10) 
+players, only use up to the maximum player number 
+and turn off random start. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Naming Your Scheme Files:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Since there is no way to 'lock-out' players from your
+schemes, it will be up to the host to only allow the
+appropriate number of players into a particular game.
+In order to make things simple when naming your 
+scheme stick to the currently used naming convention.
+
+Example:
+  'MY LEVEL (6)'
+
+This is a 6 player scheme
+
+Example: 
+  'My Team Level (3)(6)'
+This is a team game allowing 3 on 6 player.  
+
+When making team maps, you will be able to assign 
+teams within the editor by changing the player 
+number to either RED or WHITE.  When doing this
+make sure your teams are broken up as such.
+
+The position's are not dynamic and must fill up
+appropriately in the staging area of the game.
+If you have a 5 player map, you cannot turn off
+players 1-5 and join slots 6-10. UNLESS you have
+assigned the 6-10 positions over the 1-5 positions
+accordingly.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Atomic Bomberman Editor Key Reference
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mouse Buttons:
+Right 	Place selected player start position
+Left 	Place selected brick
+
+Keyboard:
+TAB	Cycle brick type
+1	Open Space (no brick)
+2	Unbreakable
+3	Breakable
++/-	Cycle through player numbers
+
+0	Toggle between Graphic View and Line Draw View
+
+N	Change Internal Scheme Name
+D	Change Brick Density (0 to 100)
+Ctrl-B	Restores the Basic Grid Pattern
+Ctrl-F  Fill the entire screen with selected brick type
+P	Edit powerup settings.
+T	Toggle Team color (red/white)
+ESC	Cancel/Exit
+
+

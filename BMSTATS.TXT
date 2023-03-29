@@ -1,0 +1,23 @@
+Bomberman Statistics File:
+
+                                       Total      Last Run
+
+Matches Started:                         897             1
+Games Started:                          6661             1
+Frames Rendered:                    44640176         50829
+Graphic Requests Serviced:        1189491094        653748
+Bombs Dropped:                        319933            22
+Player Deaths (all):                   17711             1
+Local AI Player Deaths:                 8243             0
+Bricks Destroyed:                     302787            25
+Total Pixel Distances Run:          93834416         11457
+Net Games Hosted:                        115             0
+Net Games Joined:                         90             0
+Total Network Bytes In:           3117500821             0
+Total Network Bytes Out:           555505573             0
+Total Network Packets In:           74819634             0
+Total Network Packets Out:          14148143             0
+Attract Modes Started:                   185             0
+Network Packet Retransmits:            11126             0
+Ghost Bomb Actions Found:                 38             0
+Ghost Bomb Actions Lost:               49384             0

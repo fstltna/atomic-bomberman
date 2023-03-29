@@ -1,0 +1,54 @@
+What is PSS ?
+--------------
+PSS stands for Play Sound Shell.  PSS integrates with 
+Playsh.exe to play sound files in the .RSS or .RSM 
+formats from Bomberman.
+
+When you run PSS a file PSS.ini will be generated if 
+one does not already exist.  This is a listing of 
+all the sounds within the current directory as
+cataloged by PSS.  
+
+
+
+Using PSS
+----------
+Type PSS and press <enter/return>.  Use your up and down
+arrow key's on your keyboard to highlight a file.  When
+you have found the file that you wish you play press 
+<enter/return> and the file will play.  
+
+
+Indexing Files
+---------------
+If you want to index a file (give it a description) you
+can press the <insert> key, then type in a short 
+description.  Once you are finished press <enter/return>
+to go back into selection mode.
+
+Number Referencing Files
+------------------------
+You can use the <+> or <-> keys to increment / decrement
+a number reference while highlighting a sound.  The range
+is 1-5.  This is usefull if you want to tag a bunch of file
+then <"GREP"> them out to a seperate file.
+
+If you have grep you can get the files you tagged out as 
+followes  "Grep :1: pss.ini >mylist.txt".  This will pipe
+all sounds tagged as "1" to a file called mylist.txt.
+
+
+
+
+
+MUST READ
+---------
+Please see TOOLHELP.TXT for important information regarding
+this utility as well as all the other tools / utililties
+located on this CD.
+
+
+
+
+
+

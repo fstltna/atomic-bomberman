@@ -1,0 +1,121 @@
+**************************************************************
+Atomic Bomberman Network Troubleshooting Notes
+**************************************************************
+Atomic Bomberman supports three networking protocols:
+	IPX
+	Modem
+	Serial
+
+With IPX it is necessary that you have an IPX driver
+and associated hardware installed and operational for
+this layer to connect.
+
+With Modem it is necessary that you have a modem
+attached and installed in your Win95 system.
+
+With Serial it is necessary that you have a serial
+cable and null modem connector to attach your system
+to the other system.
+
+It is not advisable to rapidly press the <ESC> key 
+during transition screens since it may be possible
+for slower machines to get left behind.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Network Game Limitations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When playing a Networked game, certain limitations
+apply to assure satisfactory performance.  Obviously,
+the faster baud rate you use for Serial/Modem (up to
+the limits of your system's UARTs) the better it will
+play.  Similarly, the faster networking card you have,
+the better the game will play.
+
+When you are a server, the maximum number of clients
+that can attach to you is four.  Obviously with Modem
+and/or Serial the actual number is only one, but the
+extra slots are still maintained for possible future
+expansion and use.
+
+To reduce network traffic and increase network 
+synchronization, several features have been removed
+from Network games:  
+
+Animations:  Several animations have are not enabled
+  during Network play.  These include the Hit-on-the-
+  Head-Spin animation, the Grab/Throw animation, and
+  the punch animation.  Some will still be displayed
+  on the local systems.  The Reverse Controls Disease
+  will display a bomberman walking backwards in Net 
+  Play.
+
+Trampolines:  In the Deep Forest Green level, 
+  several trampolines line the forest in a single 
+  computer game.  Trampolines are not available 
+  during network play.
+
+Diseases:  The 'Diseases Can Be Destroyed' option does
+  not apply to network games.  All diseases can be 
+  destroyed regardless of this selection during a 
+  network game.
+
+  Also some diseases might not be passed over a network.
+  The probability for players to transmit diseases over 
+  the network has been reduced.
+
+  Finally, the Swap Disease is not available during 
+  network play.
+
+Random Powerup:  The Random powerup will never appear
+  in a network game.
+
+Ebola:  Picking up Ebola in a game does not make the 
+  bomberman flash like other diseases.
+
+Gold Bomberman:  The Gold Bomberman (Roulette Wheel) 
+  option is not available in Network play.
+
+Artificial Intelligence:  The Ctrl-A shortcut to select 
+  all AI players in the Controller Setup Screen is not 
+  supported in Network play.
+
+Hit-on-the-Head:  When players get hit on the head with
+  a flying bomb, there is a chance that that player
+  might lose a powerup.  In a net game, players will not 
+  lose powerups when they are bonked in the head.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Performance Hints
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To get the best performance out of Networked games,
+it is advisable to use the fastest computer as the
+server.
+
+Further, it is inadvisable to have large differences
+in the speeds of different computers on the same
+networking game.  While there is no hard-and-fast
+rule about speeds and compatibilities, the closer
+the two systems are in performance, the fewer
+problems you will be likely to encounter.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Installation Size
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To increase performance, it is recommeded to use
+the maximum install during Network games.  Maximum 
+install caches sounds from the hard drive rather 
+than the CD.  Generally for Medium and Minimal 
+Installations, there might be some pauses during 
+the first game as the sounds are being cached.
+
+For Minimum Install, the music will be loaded at
+the beginning of the match.  During network games
+and random level matches, the Generic tune will 
+always play to eliminate long load times.
+
+
+
+
+
